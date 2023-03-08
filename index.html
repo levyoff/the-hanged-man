@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        The Hanged <br />
+        Man
+      </h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <img id="pics" src="media/1.png" alt="Imagen de un señor ahorcado" />
+        </div>
+      </section>
+      <div class="userInput">
+        <ul>
+          <input class="user" type="text" autofocus maxlength="1" />
+          <button class="check">Check</button>
+          <p class="words"></p>
+        </ul>
+      </div>
+      <p class="message"></p>
+      <div class="lifes"></div>
+      <div class="overlay hidden"></div>
+    </main>
+    <button class="reset">Reset</button>
+    <footer>
+      <button class="instructions">Instructions</button>
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <h2>Instructions</h2>
+        <p>
+          Are you kidding?, do you really need an explanation of how to play the
+          game?
+        </p>
+      </div>
+      <p>
+        &copy A creation by Carlos <br />
+        & Brais
+      </p>
+    </footer>
+    <script src="./src.js"></script>
+  </body>
+</html>
